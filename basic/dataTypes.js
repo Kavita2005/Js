@@ -66,3 +66,56 @@ let y1=++x1
 console.log(x1,y1);
 
 
+//Comparision oprations
+console.log(2>4);//false
+console.log(2<4);//true
+console.log(2<=1);//f
+console.log(3>=4);//f
+console.log(3!=4);//t
+console.log(3==3);//t
+
+//avoid null comparision
+// console.log(null>0);
+// console.log(null==0);
+// console.log(null>=0);
+
+
+
+//different dataTypes comparison 
+console.log('2'==2);//not return true
+console.log('2'===2);//strictly checks datatypes if not same datatypes then returns false
+
+
+//DataTypes
+//1. Primitive => string, number, boolean,null,undefind,bigInt,symbol
+//2. non-premitive =>object,array,function
+//symbol example
+const id=Symbol('1234')
+const userid=Symbol('1234')
+console.log(id===userid);
+//bigInt example
+const bigNum=1238746666n
+console.log(bigNum);
+
+
+//Array example
+const studName=['kavita','Mrudula','Shifa']
+let studAge={
+    age:21,
+}
+console.log("Student name is :",studName);
+console.log(studAge);
+//function example
+const myfun=function() {
+    console.log("hello world"); 
+}
+myfun()
+
+
+
+
+
+
+
+
+
